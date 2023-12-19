@@ -8,7 +8,6 @@ struct SignUp: View {
     @State private var isEmailValid: Bool = true
     @State private var isPasswordValid: Bool = true
     @State private var isPasswordVisible = false
-
     
     var body: some View {
         NavigationView {
