@@ -8,7 +8,7 @@ struct SignUp: View {
     @State private var isEmailValid: Bool = true
     @State private var isPasswordValid: Bool = true
     @State private var isPasswordVisible = false
-    
+
     var body: some View {
         NavigationView {
             VStack(spacing:15) {
@@ -140,8 +140,9 @@ struct SignUp: View {
                         .background(Color(hex: "5DB075"))
                         .cornerRadius(40)
                 }
+//                Spacer().frame(height: 15)
                 Button(action:{}){
-                    Text("Forgot yout password?")
+                    Text("Forgot your password?")
                         .fontWeight(.semibold)
                         .font(.body)
                         .frame(maxWidth: 320, maxHeight: 30)
@@ -169,10 +170,9 @@ struct SignUp: View {
                     }
                 )
             }
-            
+            .padding(.bottom,330)
 
         }
-        .padding(.bottom,330)
 
         .ignoresSafeArea(.keyboard, edges: .bottom)
     }

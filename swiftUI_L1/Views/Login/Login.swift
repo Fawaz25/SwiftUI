@@ -6,16 +6,21 @@ struct Login: View {
     @State private var password: String = ""
     @State private var isChecked: Bool = false
     @State private var isPasswordVisible = false
+    @State private var isLoggedIn = false
 
     
     var body: some View {
         NavigationView {
             VStack(spacing:15) {
-                
+                HStack{
+                    
+               Spacer()
                 Text("Log In")
                     .font(.title)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
+                    Spacer()
+                }
                 Spacer().frame(height: 15)
                
                 TextField("Email", text: $email)
@@ -75,7 +80,9 @@ struct Login: View {
                        }
                 
                 Spacer().frame(height: 15)
-                Button(action: {}) {
+                Button(action: {
+                    isLoggedIn = true
+                }) {
                     Text("Log In")
                         .fontWeight(.medium)
                         .font(.body)
@@ -86,11 +93,22 @@ struct Login: View {
                         .background(Color(hex: "5DB075"))
                         .cornerRadius(40)
                 }
+                .fullScreenCover(isPresented: $isLoggedIn) {
+                    Dashboard()
+                }
+                .padding(.bottom,510)
+
             }
-            .padding(.bottom,180)
             .ignoresSafeArea(.keyboard, edges: .bottom)
         }
     }
 }
+
+struct Login_preview: PreviewProvider {
+    static var previews: some View {
+        Login()
+    }
+}
+
 
 
