@@ -16,12 +16,6 @@
 		786D0AAF2B3ABAF000595659 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0AAE2B3ABAF000595659 /* NavBar.swift */; };
 		786D0AB12B3ACA6A00595659 /* ScrollableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0AB02B3ACA6A00595659 /* ScrollableCell.swift */; };
 		786D0ABA2B3ACE8300595659 /* xxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0AB92B3ACE8300595659 /* xxx.swift */; };
-		78A05D662B43CFD4007039DC /* StudentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D552B43CFD4007039DC /* StudentTabView.swift */; };
-		78A05D672B43CFD4007039DC /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D572B43CFD4007039DC /* StudentDetailView.swift */; };
-		78A05D682B43CFD4007039DC /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D592B43CFD4007039DC /* AddStudentView.swift */; };
-		78A05D6A2B43CFD4007039DC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D5D2B43CFD4007039DC /* ListView.swift */; };
-		78A05D6B2B43CFD4007039DC /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D5F2B43CFD4007039DC /* SideMenuView.swift */; };
-		78A05D6C2B43CFD4007039DC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D602B43CFD4007039DC /* SideMenu.swift */; };
 		78A05D7B2B43D1F8007039DC /* StudentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D712B43D1F7007039DC /* StudentTabView.swift */; };
 		78A05D7C2B43D1F8007039DC /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D782B43D1F8007039DC /* AddStudentView.swift */; };
 		78A05D7D2B43D1F8007039DC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A05D752B43D1F8007039DC /* SideMenu.swift */; };
@@ -47,12 +41,6 @@
 		786D0AAE2B3ABAF000595659 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		786D0AB02B3ACA6A00595659 /* ScrollableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCell.swift; sourceTree = "<group>"; };
 		786D0AB92B3ACE8300595659 /* xxx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xxx.swift; sourceTree = "<group>"; };
-		78A05D552B43CFD4007039DC /* StudentTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTabView.swift; sourceTree = "<group>"; };
-		78A05D572B43CFD4007039DC /* StudentDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
-		78A05D592B43CFD4007039DC /* AddStudentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
-		78A05D5D2B43CFD4007039DC /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		78A05D5F2B43CFD4007039DC /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
-		78A05D602B43CFD4007039DC /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		78A05D712B43D1F7007039DC /* StudentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTabView.swift; sourceTree = "<group>"; };
 		78A05D732B43D1F7007039DC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		78A05D752B43D1F8007039DC /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
@@ -195,68 +183,6 @@
 			path = PopUps;
 			sourceTree = "<group>";
 		};
-		78A05D4C2B43CFD4007039DC /* Assignment_3 */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D502B43CFD4007039DC /* PresentationWork */,
-			);
-			name = Assignment_3;
-			path = "../../SwiftUI-Series/Assignment_3";
-			sourceTree = "<group>";
-		};
-		78A05D502B43CFD4007039DC /* PresentationWork */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D542B43CFD4007039DC /* StudentView */,
-				78A05D5C2B43CFD4007039DC /* ListView */,
-				78A05D5E2B43CFD4007039DC /* SideMenu */,
-			);
-			path = PresentationWork;
-			sourceTree = "<group>";
-		};
-		78A05D542B43CFD4007039DC /* StudentView */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D552B43CFD4007039DC /* StudentTabView.swift */,
-				78A05D562B43CFD4007039DC /* StudentDetailsView */,
-				78A05D582B43CFD4007039DC /* AddStudentView */,
-			);
-			path = StudentView;
-			sourceTree = "<group>";
-		};
-		78A05D562B43CFD4007039DC /* StudentDetailsView */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D572B43CFD4007039DC /* StudentDetailView.swift */,
-			);
-			path = StudentDetailsView;
-			sourceTree = "<group>";
-		};
-		78A05D582B43CFD4007039DC /* AddStudentView */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D592B43CFD4007039DC /* AddStudentView.swift */,
-			);
-			path = AddStudentView;
-			sourceTree = "<group>";
-		};
-		78A05D5C2B43CFD4007039DC /* ListView */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D5D2B43CFD4007039DC /* ListView.swift */,
-			);
-			path = ListView;
-			sourceTree = "<group>";
-		};
-		78A05D5E2B43CFD4007039DC /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				78A05D5F2B43CFD4007039DC /* SideMenuView.swift */,
-				78A05D602B43CFD4007039DC /* SideMenu.swift */,
-			);
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
 		78A05D6E2B43D1F7007039DC /* Assignment_3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,7 +249,6 @@
 			children = (
 				78A806282B298C0600BD3B62 /* swiftUI_L1 */,
 				78A806292B298C0600BD3B62 /* swiftUI_L1App.swift */,
-				78A05D4C2B43CFD4007039DC /* Assignment_3 */,
 				78A806272B298C0600BD3B62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -427,10 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A8062C2B298C0600BD3B62 /* SignUp.swift in Sources */,
-				78A05D6A2B43CFD4007039DC /* ListView.swift in Sources */,
-				78A05D6B2B43CFD4007039DC /* SideMenuView.swift in Sources */,
-				78A05D6C2B43CFD4007039DC /* SideMenu.swift in Sources */,
-				78A05D672B43CFD4007039DC /* StudentDetailView.swift in Sources */,
 				786D0AAD2B3ABAAD00595659 /* bottomDrawer.swift in Sources */,
 				786D0ABA2B3ACE8300595659 /* xxx.swift in Sources */,
 				78A05D7F2B43D1F8007039DC /* SideMenuView.swift in Sources */,
@@ -438,7 +359,6 @@
 				786D0AB12B3ACA6A00595659 /* ScrollableCell.swift in Sources */,
 				786D0AA32B3A905300595659 /* PostModel.swift in Sources */,
 				786D0AAA2B3AB9CB00595659 /* TabBar.swift in Sources */,
-				78A05D662B43CFD4007039DC /* StudentTabView.swift in Sources */,
 				786D0AAF2B3ABAF000595659 /* NavBar.swift in Sources */,
 				78A05D802B43D1F8007039DC /* ListView.swift in Sources */,
 				78A05D7D2B43D1F8007039DC /* SideMenu.swift in Sources */,
@@ -448,7 +368,6 @@
 				786D0A982B39FC6900595659 /* SegmentControl.swift in Sources */,
 				78A8063E2B30956700BD3B62 /* Extensions.swift in Sources */,
 				78A8062A2B298C0600BD3B62 /* swiftUI_L1App.swift in Sources */,
-				78A05D682B43CFD4007039DC /* AddStudentView.swift in Sources */,
 				78A05D7C2B43D1F8007039DC /* AddStudentView.swift in Sources */,
 				78A8063C2B308F7F00BD3B62 /* Login.swift in Sources */,
 				78A05D7E2B43D1F8007039DC /* StudentDetailView.swift in Sources */,
