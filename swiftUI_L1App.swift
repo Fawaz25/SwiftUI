@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftUI_L1App: App {
     var body: some Scene {
         WindowGroup {
-            SignUp()
+            StudentTabView()
         }
     }
 }
