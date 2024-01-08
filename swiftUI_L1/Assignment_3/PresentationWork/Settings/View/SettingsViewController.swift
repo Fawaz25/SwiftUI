@@ -50,11 +50,13 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     func navigateToViewProfile() {
         if let navigationController = navigationController {
             let profileView = UIHostingController(rootView: ProfileView())
+            profileView.navigationItem.title = "Profile" 
             navigationController.pushViewController(profileView, animated: true)
+           
         }
     }
 
     func switchToTab1Root() {
-        tabBarController?.selectedIndex = 0 // Assuming Tab 1 index is 0
+        tabBarController?.selectedIndex = 0 
     }
 }

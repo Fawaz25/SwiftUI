@@ -28,7 +28,6 @@ struct StudentTabView: View {
     }
 }
 
-// UIKit view controller for Settings tab
 struct UIKitSettingsView: UIViewControllerRepresentable {
     typealias UIViewControllerType = UINavigationController // Embed in a navigation controller
     
@@ -39,7 +38,6 @@ struct UIKitSettingsView: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
-        // Update UI or pass data to the UIKit view controller if needed
     }
 }
 
