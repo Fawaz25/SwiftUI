@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783FEAF92B4C2D2B008DEFB3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783FEAF82B4C2D2B008DEFB3 /* ProfileView.swift */; };
+		783FEAFE2B4C2DB4008DEFB3 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783FEAFD2B4C2DB4008DEFB3 /* model.swift */; };
+		783FEB012B4C2F3E008DEFB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783FEB002B4C2F3E008DEFB3 /* SettingsViewController.swift */; };
 		786D0A982B39FC6900595659 /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0A972B39FC6900595659 /* SegmentControl.swift */; };
 		786D0A9A2B3A2B5200595659 /* PopUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0A992B3A2B5200595659 /* PopUps.swift */; };
 		786D0AA32B3A905300595659 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D0AA22B3A905300595659 /* PostModel.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		783FEAF82B4C2D2B008DEFB3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		783FEAFD2B4C2DB4008DEFB3 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		783FEB002B4C2F3E008DEFB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		786D0A972B39FC6900595659 /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		786D0A992B3A2B5200595659 /* PopUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUps.swift; sourceTree = "<group>"; };
 		786D0AA22B3A905300595659 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
@@ -68,6 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		783FEAFA2B4C2D70008DEFB3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				783FEAFF2B4C2F11008DEFB3 /* View */,
+				783FEAFC2B4C2D93008DEFB3 /* Cells */,
+				783FEAFB2B4C2D88008DEFB3 /* Profile */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		783FEAFB2B4C2D88008DEFB3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				783FEAF82B4C2D2B008DEFB3 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		783FEAFC2B4C2D93008DEFB3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				783FEAFD2B4C2DB4008DEFB3 /* model.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		783FEAFF2B4C2F11008DEFB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				783FEB002B4C2F3E008DEFB3 /* SettingsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		786D0A9B2B3A8B9C00595659 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +234,7 @@
 		78A05D6F2B43D1F7007039DC /* PresentationWork */ = {
 			isa = PBXGroup;
 			children = (
+				783FEAFA2B4C2D70008DEFB3 /* Settings */,
 				78A05D702B43D1F7007039DC /* StudentView */,
 				78A05D722B43D1F7007039DC /* ListView */,
 				78A05D742B43D1F7007039DC /* SideMenu */,
@@ -364,12 +405,15 @@
 				78A05D7D2B43D1F8007039DC /* SideMenu.swift in Sources */,
 				78A05D7B2B43D1F8007039DC /* StudentTabView.swift in Sources */,
 				78A806422B39DE7300BD3B62 /* Dashboard.swift in Sources */,
+				783FEAFE2B4C2DB4008DEFB3 /* model.swift in Sources */,
 				786D0A9A2B3A2B5200595659 /* PopUps.swift in Sources */,
+				783FEB012B4C2F3E008DEFB3 /* SettingsViewController.swift in Sources */,
 				786D0A982B39FC6900595659 /* SegmentControl.swift in Sources */,
 				78A8063E2B30956700BD3B62 /* Extensions.swift in Sources */,
 				78A8062A2B298C0600BD3B62 /* swiftUI_L1App.swift in Sources */,
 				78A05D7C2B43D1F8007039DC /* AddStudentView.swift in Sources */,
 				78A8063C2B308F7F00BD3B62 /* Login.swift in Sources */,
+				783FEAF92B4C2D2B008DEFB3 /* ProfileView.swift in Sources */,
 				78A05D7E2B43D1F8007039DC /* StudentDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
