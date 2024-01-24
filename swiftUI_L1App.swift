@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import Combine
+
 
 @main
 struct swiftUI_L1App: App {
+//    let coordinator = Coordinator()
     var body: some Scene {
         WindowGroup {
-//            SignUp()
             StudentTabView()
+//                .environmentObject()
         }
     }
 }

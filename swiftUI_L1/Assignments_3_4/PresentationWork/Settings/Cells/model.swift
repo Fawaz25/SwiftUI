@@ -9,18 +9,20 @@ import Foundation
 
 enum SettingsOptions: CaseIterable {
     case View_Profile
-    case Switch_to_tab_1_Root
+    case Student_Listing_Tab
     
     static var count: Int {
-            return self.allCases.count
-        }
+        return self.allCases.count
+    }
     
     func displayName() -> String {
         switch self {
         case .View_Profile:
             return "View Profile"
-        case .Switch_to_tab_1_Root:
-            return "Switch to Tab 1 Root"
+        case .Student_Listing_Tab:
+            return "Student Listing Tab"
         }
     }
 }
+
+

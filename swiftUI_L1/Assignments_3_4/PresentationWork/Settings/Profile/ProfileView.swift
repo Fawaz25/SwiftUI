@@ -7,21 +7,21 @@
 
 import SwiftUI
 
-
 struct ProfileView: View {
     var body: some View {
        
-        VStack {
+        VStack (alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,spacing: 10) {
             Image(systemName: "person.circle")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .clipShape(Circle())
-                .padding()
+                .padding([.top,.leading,.trailing])
 
-            Text("First Name Last Name")
+            Text("Fawaz Ahmed")
                 .font(.title)
                 .multilineTextAlignment(.center)
                 .padding()
+            Spacer()
         }
     }
 }
